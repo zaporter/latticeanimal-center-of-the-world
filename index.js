@@ -66,11 +66,8 @@ import('./pkg')
       current_longitude = 2.34;
       redraw();
     })
-    const sleep = (ms) =>{
-      return new Promise(resolve => setTimeout(resolve, ms));
-   }
-    sleep(4000).then(()=>{redraw()});
+    redraw();
     
-    console.log("Happy!");
+    console.log("Module loaded in js");
   })
   .catch(console.error);
