@@ -69,7 +69,7 @@ import('./pkg')
     const sleep = (ms) =>{
       return new Promise(resolve => setTimeout(resolve, ms));
    }
-    sleep(1000).then(()=>{redraw()});
+    sleep(4000).then(()=>{redraw()});
     
     console.log("Happy!");
   })
