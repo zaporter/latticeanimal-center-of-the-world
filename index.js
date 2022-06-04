@@ -68,6 +68,7 @@ import('./pkg')
     })
     redraw();
     
+    document.getElementById("loading-message").textContent="";
     console.log("Module loaded in js");
   })
   .catch(console.error);
