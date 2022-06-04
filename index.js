@@ -66,7 +66,11 @@ import('./pkg')
       current_longitude = 2.34;
       redraw();
     })
-    redraw();
+    const sleep = (ms) =>{
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+    sleep(1000).then(()=>{redraw()});
+    
     console.log("Happy!");
   })
   .catch(console.error);
