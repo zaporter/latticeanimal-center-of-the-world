@@ -1,1 +1,4 @@
-Source code for <a href="www.latticeanimal.com/center-of-the-world">www.latticeanimal.com/center-of-the-world</a>
+Source code for https://www.latticeanimal.com/center-of-the-world
+
+
+My first experience with a Rust Web-sys backend
