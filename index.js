@@ -48,6 +48,12 @@ import('./pkg')
       current_longitude = 33.42;
       redraw();
     })
+    document.getElementById("button-capehorn").addEventListener('click', ()=>{
+      console.log("cape horn button");
+      current_latitude = -55;
+      current_longitude = -67;
+      redraw();
+    })
     document.getElementById("button-new-york").addEventListener('click', ()=>{
       console.log("new-york button");
       current_latitude = 40.71;
